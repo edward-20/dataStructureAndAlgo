@@ -4,8 +4,7 @@
  */
 #include <stdio.h>
 
-
-void insertionSort(arr[], int l, int r)
+void insertionSort(int arr[], int l, int r)
 {
 	// iterator through the array
 	int i;
