@@ -18,3 +18,11 @@ details.
 * merge
 * quick
 * shell
+
+# Testing
+* random number generator to make arrays
+
+# Abstract Data Strucutres
+* stack
+* queue
+* trees
