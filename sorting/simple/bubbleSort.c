@@ -3,8 +3,6 @@
  * them, thereby "bubbling" the higher results to where they belong in the
  * ordered array.
  */
-#include <stdbool.h>
-
 void bubbleSort(arr[], int l, int r)
 {
 	// Iterator

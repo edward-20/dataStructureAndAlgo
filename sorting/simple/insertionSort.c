@@ -2,8 +2,6 @@
  * until it finds a key less than its predecessor, in which case it will
  * "insert" it into the thus far sorted array.
  */
-#include <stdio.h>
-
 void insertionSort(int arr[], int l, int r)
 {
 	// iterator through the array

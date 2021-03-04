@@ -3,8 +3,6 @@
  * applied recursively
  */
 
-#include <stdio.h>
-
 // Helper function
 /* Merges two independently sorted subarrays of arr[]
  * The first subarray is arr[l .. m]

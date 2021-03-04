@@ -1,8 +1,6 @@
 /* Selection Sort is a simple sorting algorithm. It repeatedly takes the minimum
  * element from the unsorted subarray to append to the sorted subarray.
  */
-#include <stdio.h>
-
 void selectionSort(arr[], int l, int r)
 {
 	// Iterator
