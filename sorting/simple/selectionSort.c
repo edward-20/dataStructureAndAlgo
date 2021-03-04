@@ -22,9 +22,7 @@ void selectionSort(arr[], int l, int r)
 		}
 		// Swap the minimum with arr[i] to add to the sorted array
 		// whilst conserving the elements of the unsorted array
-		int buffer = arr[minimum_index];
-		arr[minimum_index] = arr[i];
-		arr[i] = buffer;
+		swap(arr, minimum_index, i);
 	}
 
 	return;

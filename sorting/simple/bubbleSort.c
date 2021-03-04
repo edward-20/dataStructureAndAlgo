@@ -19,9 +19,7 @@ void bubbleSort(arr[], int l, int r)
 		for (j = l; j <= r - i; j++) {
 			if (arr[j] < arr[j + 1]) {
 				// swap the keys
-				int buffer = arr[j + 1];
-				arr[j + 1] = arr[j];
-				arr[j] = buffer;
+				swap(arr, j, j + 1);	
 				sorted = false;
 			}
 		}
