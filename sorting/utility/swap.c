@@ -1,3 +1,4 @@
+#include "swap.h"
 /* swap: interchange arr[i] and arr[j] 
  */
 void swap (int arr[], int i, int j)

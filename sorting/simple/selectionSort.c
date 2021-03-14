@@ -1,7 +1,8 @@
+#include "selectionSort.h"
 /* Selection Sort is a simple sorting algorithm. It repeatedly takes the minimum
  * element from the unsorted subarray to append to the sorted subarray.
  */
-void selectionSort(arr[], int l, int r)
+void selectionSort(int arr[], int l, int r)
 {
 	// Iterator
 	int i;

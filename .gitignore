@@ -3,3 +3,6 @@
 
 # Ignore swap files
 *.swp
+
+# Ignore executables from compilation
+a.out

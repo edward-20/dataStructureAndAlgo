@@ -1,3 +1,4 @@
+#include "mergeSort.h"
 /* Merge sort is a divide and conquer sorting algorithm. It divides the unsorted
  * array into two halves, sorts them and then merges them. This process is
  * applied recursively

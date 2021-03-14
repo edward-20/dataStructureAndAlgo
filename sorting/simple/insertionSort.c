@@ -1,3 +1,4 @@
+#include "insertionSort.h"
 /* Insertion Sort is a simple sorting algorithm. It iterates through the array,
  * until it finds a key less than its predecessor, in which case it will
  * "insert" it into the thus far sorted array.

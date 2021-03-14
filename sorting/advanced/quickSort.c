@@ -1,3 +1,4 @@
+#include "quickSort.h"
 /* Divide and conquer algorithm. It picks an element as a pivot then partitions
  * the array around the pivot. The partition to the left consists of keys less
  * than the pivot and the right partition consists of keys greater than. The
@@ -19,11 +20,13 @@ void quickSort(int arr[], int l, int r)
 	int last = l;
 
 	// iterating through array excluding the pivot key at the start
+	// for each iteration we either add to the left partition or don't
+	int i;
 	for (i = l + 1; i <= r; i++)
 		// if we find a key smaller than the pivot, we add it to the
 		// left partition
 		if (arr[i] < arr[l])
-			swap(arr, ++last, i)
+			swap(arr, ++last, i);
 	// Finally we swap the pivot key with the last key of the left partition
 	swap(arr, l, last);
 
